@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navigation_Logo {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 800;
+
+}
+
+.navigation_links {
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    justify-content: flex-end;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    list-style-type: none;
+}
+
+.others {
+    text-decoration: none;
+
+}
+
+.information {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg);
+    height: 360px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.information_text {
+    text-align: center;
+    font-weight: 1000;
+
+
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.passage_boxes {
+    text-align: left;
+    width: 25%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-weight: 50px;
+}
+
+.ending {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    flex-direction: column;
+}
+
+.ending:hover {
+    color: blue;
+}
+
+.ending_icons {
+    font-size: 36px;
+}
+
+@media only screen and (max-width: 440px) {
+    .navigation_links {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .responsive {
+        display: contents;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .passage_boxes {
+        width: 90%;
+    }
+}
